@@ -1,0 +1,78 @@
+/*CSS RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+
+#title {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+
+.head-sec {
+
+}
+
+.counter-container {
+    display: grid;
+    justify-content: center;
+}
+
+#sold-tv-number {
+    color: seagreen;
+    display: flex;
+    justify-content: center;
+}
+
+#buyed-tv-number {
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+
+#tv-number-to-sell {
+    color: indianred;
+    display: flex;
+    justify-content: center;
+}
+
+
+.middle-sec {
+
+}
+
+.television-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#television-brands {
+    list-style-type: none;
+    border: 1px solid grey;
+}
+
+#tv-info {
+    border: 1px solid grey;
+}
+
+#all-tv-information {
+    list-style-type: none;
+    border: 1px solid grey;
+}
+
